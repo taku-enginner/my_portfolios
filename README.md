@@ -84,35 +84,47 @@ Rubyを使ったWebアプリケーション開発を中心に取り組んでお�
 
 ---
 
-### 🗓️ 記録帳（仮）
+### 📌 プログラミングクイズアプリ（チーム開発）
 
-- URL：[準備中]
-- 日々の学習や出来事を記録するシンプルな記録帳
-- CSVエクスポートに対応
-- データ構造やUIのシンプルさを意識
+- **URL**：[https://programing-quiz-1.onrender.com/](https://programing-quiz-1.onrender.com/)
+- **概要**：プログラミングに関するクイズを投稿・共有できるWebアプリ。チームで要件定義から開発、デプロイまで実施。
+- **使用技術**：
+  - フロントエンド：HTML / TailwindCSS
+  - バックエンド：Ruby on Rails
+  - データベース：PostgreSQL（Render）
+  - デプロイ：Render
+- **主な機能**：
+  - クイズの作成・編集・投稿
+  - クイズの閲覧・解答
+- **こだわりポイント**：
+  - チーム開発によるGit/GitHubの運用経験
+  - ユーザーが手軽に投稿・学習できる構成を意識
+- **GitHub**：[https://github.com/kogoro06/programing_quiz](https://github.com/kogoro06/programing_quiz)
 
 ---
 
-### 🗣️ 発音トレーニングアプリ（構想中）
+### 📌 RUNTEQ祭 応募一覧アプリ
 
-- URL：[準備中]
-- Web Speech APIを活用した音声認識ベースの学習アプリ
-- 知的障害を持つお子さん向けにやさしいUI・フィードバック設計
-- 親子で一緒に使える工夫を検討中
-
----
-
-## デザイン・UIへのこだわり
-
-- モバイル使用を前提とした設計（レスポンシブ対応）
-- シンプルかつ目的が伝わりやすいUI
-- アプリごとに適したレイアウトやコンポーネント設計を意識
+- **URL**：[https://runteq-fes-6.onrender.com/](https://runteq-fes-6.onrender.com/)
+- **概要**：RUNTEQ祭に応募されたアプリを一覧で紹介するための、開発者情報集約アプリ。
+- **使用技術**：
+  - フロントエンド：HTML / TailwindCSS
+  - バックエンド：Ruby on Rails
+  - データベース：PostgreSQL（Neon）
+  - デプロイ：Render
+- **主な機能**：
+  - アプリ情報・開発者情報の一覧掲載
+  - 固定データの表示（Neonで直接投入）
+- **こだわりポイント**：
+  - 短期間での開発に対応するため、掲載機能に特化
+  - 管理画面等は省略し、表示に必要な最低限の構成で構築
+- **GitHub**：[https://github.com/taku-enginner/runteq_fes_6](https://github.com/taku-enginner/runteq_fes_6)
 
 ---
 
 ## 今後の展望（Future Work）
 
-- しばらくは毎月1アプリ開発
+- RUNTEQ入学から毎月LT会に登壇してきました。その継続力をアプリ開発に活かし、毎月1アプリ開発を行いたいと思います。
 
 ---
 
