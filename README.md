@@ -62,14 +62,25 @@ Rubyを使ったWebアプリケーション開発を中心に取り組んでお�
 
 ## 各プロジェクト紹介（Projects）
 
-### 🎵 UTAMEMO
+### 📌 UTAMEMO
 
-- URL：[https://utamemo.jp](https://utamemo.jp)
-- 「歌詞にメモを残す」ことをDX化したアプリ
-- Musixmatch APIを使用して歌詞取得（一部制限あり）
-- メモをドラッグ＆ドロップで整理
-- モバイルファースト設計
-- GitHub：[https://github.com/taku-enginner/utamemo](https://github.com/taku-enginner/utamemo)
+- **URL**：[https://utamemo.jp](https://utamemo.jp)
+- **概要**：「歌詞にメモする」行為をDX化したWebアプリ。カラオケ練習の効率化を目指す。
+- **使用技術**：
+  - フロントエンド：HTML / TailwindCSS（一部React）
+  - バックエンド：Ruby on Rails
+  - データベース：PostgreSQL（Neon）
+  - 外部API：Musixmatch API（歌詞取得）
+- **主な機能**：
+  - メモ作成・編集・削除
+  - ドラッグ＆ドロップで歌詞上に配置
+  - 曲名・アーティスト名での検索
+- **こだわりポイント**：
+  - モバイルファーストでの設計とUI調整
+  - APIの無料制限内での工夫
+  - シンプルかつ実用的なUIを意識
+- **GitHub**：[https://github.com/taku-enginner/utamemo](https://github.com/taku-enginner/utamemo)
+
 
 ---
 
@@ -101,9 +112,7 @@ Rubyを使ったWebアプリケーション開発を中心に取り組んでお�
 
 ## 今後の展望（Future Work）
 
-- アプリ横断でのログイン共通化機能の実装
-- TypeScript + Next.js での新アプリ開発
-- 管理画面やアクセス解析の導入
+- しばらくは毎月1アプリ開発
 
 ---
 
